@@ -17,9 +17,9 @@ for x in range(1,len(e)+1):
     else:
         print('\n' * 100)
         if x % 2 == 0:
-            e[i] = i1
-        else:
             e[i] = i2
+        else:
+            e[i] = i1
         if (e[0]==e[1]==e[2]) \
                 or (e[3]==e[4]==e[5]) or (e[6]==e[7]==e[8]) \
                 or (e[0]==e[3]==e[6]) \
